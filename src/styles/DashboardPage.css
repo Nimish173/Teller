@@ -1,0 +1,40 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #4CAF50;
+  }
+  
+  .dashboard-btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .dashboard-btn button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+  }
+
+  .create-transaction-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.create-transaction-btn:hover {
+  background-color: #45a049;
+}
